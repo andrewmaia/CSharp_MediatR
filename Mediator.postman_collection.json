@@ -1,0 +1,41 @@
+{
+	"info": {
+		"_postman_id": "b98a805e-aa4a-4630-a6ec-54a4b971bc19",
+		"name": "Mediator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5827507"
+	},
+	"item": [
+		{
+			"name": "ClienteInsertRequest",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"1\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5016/CLiente",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5016",
+					"path": [
+						"CLiente"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
